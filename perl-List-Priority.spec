@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	List
 %define		pnam	Priority
@@ -31,7 +35,8 @@ Je¶li chcesz obs³ugiwaæ wiele kawa³ków danych w porz±dku ich wa¿no¶ci
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-#%%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
