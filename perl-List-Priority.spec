@@ -26,7 +26,7 @@ Je¶li chcesz obs³ugiwaæ wiele kawa³ków danych w porz±dku ich wa¿no¶ci
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 #%{__make} test
 
