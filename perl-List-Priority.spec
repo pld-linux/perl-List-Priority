@@ -41,7 +41,8 @@ Je¶li chcesz obs³ugiwaæ wiele kawa³ków danych w porz±dku ich wa¿no¶ci
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
