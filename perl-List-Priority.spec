@@ -6,7 +6,8 @@ Summary(pl):	List::Priority - manipulowanie elementami listy zgodnie z ich prior
 Name:		perl-List-Priority
 Version:	0.02
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	76060835e6bcf0c91c0495f56b5b6409
