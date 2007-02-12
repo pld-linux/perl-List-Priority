@@ -6,7 +6,7 @@
 %define		pdir	List
 %define		pnam	Priority
 Summary:	List::Priority - a list that manipulates objects by their priority
-Summary(pl):	List::Priority - manipulowanie elementami listy zgodnie z ich priorytetem
+Summary(pl.UTF-8):   List::Priority - manipulowanie elementami listy zgodnie z ich priorytetem
 Name:		perl-List-Priority
 Version:	0.02
 Release:	3
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 If you want to handle multiple data bits by their order of importance
 - this one's for you.
 
-%description -l pl
-Je∂li chcesz obs≥ugiwaÊ wiele kawa≥kÛw danych w porz±dku ich waøno∂ci
-- ten modu≥ jest dla Ciebie.
+%description -l pl.UTF-8
+Je≈õli chcesz obs≈Çugiwaƒá wiele kawa≈Çk√≥w danych w porzƒÖdku ich wa≈ºno≈õci
+- ten modu≈Ç jest dla Ciebie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
