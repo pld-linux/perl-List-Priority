@@ -8,13 +8,13 @@
 Summary:	List::Priority - a list that manipulates objects by their priority
 Summary(pl.UTF-8):	List::Priority - manipulowanie elementami listy zgodnie z ich priorytetem
 Name:		perl-List-Priority
-Version:	0.02
-Release:	4
+Version:	0.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	76060835e6bcf0c91c0495f56b5b6409
+# Source0-md5:	10ecdf78556486c232af3f02c6e6c085
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
