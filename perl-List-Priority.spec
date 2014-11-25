@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	List
 %define		pnam	Priority
+%include	/usr/lib/rpm/macros.perl
 Summary:	List::Priority - a list that manipulates objects by their priority
 Summary(pl.UTF-8):	List::Priority - manipulowanie elementami listy zgodnie z ich priorytetem
 Name:		perl-List-Priority
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	10ecdf78556486c232af3f02c6e6c085
+URL:		http://search.cpan.org/dist/List-Priority/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
