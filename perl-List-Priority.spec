@@ -4,7 +4,6 @@
 
 %define		pdir	List
 %define		pnam	Priority
-%include	/usr/lib/rpm/macros.perl
 Summary:	List::Priority - a list that manipulates objects by their priority
 Summary(pl.UTF-8):	List::Priority - manipulowanie elementami listy zgodnie z ich priorytetem
 Name:		perl-List-Priority
