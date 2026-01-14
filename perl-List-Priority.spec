@@ -8,7 +8,7 @@ Summary:	List::Priority - a list that manipulates objects by their priority
 Summary(pl.UTF-8):	List::Priority - manipulowanie elementami listy zgodnie z ich priorytetem
 Name:		perl-List-Priority
 Version:	0.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
